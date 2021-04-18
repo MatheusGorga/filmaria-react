@@ -1,0 +1,21 @@
+.logo {
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+}
+
+.favoritos {
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  font-weight: bold;
+  background-color: #fff;
+  color: black;
+}

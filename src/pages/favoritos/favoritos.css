@@ -1,0 +1,78 @@
+.contanier-loader {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.loader {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #021f2638;
+  border-top-color: #021f26;
+  border-radius: 50%;
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.meus-filmes {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  padding: 0;
+  list-style: none;
+  min-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+span {
+  font-size: 23px;
+}
+
+button {
+  margin-left: 10px;
+}
+
+ul li div a {
+  text-decoration: none;
+  color: brown;
+}
+
+.notFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div .notFoundLink {
+  cursor: pointer;
+  color: brown;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+  margin-top: 15px;
+  font-size: 25px;
+  text-decoration: none;
+}
